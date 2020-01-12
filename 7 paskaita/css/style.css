@@ -1,0 +1,73 @@
+/* Nunulinamos margin reiksmes */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 50%;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	margin: 80px 60px 30px;
+}
+
+header p {
+	margin-top: 20px;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-between;
+
+	/*margin: -20px;*/
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	width: 30%;
+	text-align: center;
+	border: 1px solid #eee;
+	flex: 1 1 auto;
+	padding: 15px;
+}
+article h2{
+	margin-top: 10px;
+}
+
+article img {
+	width: 20%;
+	height: auto;
+	margin: auto;
+	border-radius: 50%;
+}
+
+article .intro {
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+article .button {
+	background-color: #0ecf3e;
+	width: 40%;
+	margin: 20px auto;
+	justify-self: end;
+
+}
+
+.button p {
+	padding: 10px;
+	color: #fff;
+}
+
+@media (max-width: 768px){
+	main {
+		flex-flow: column;
+	}
+}

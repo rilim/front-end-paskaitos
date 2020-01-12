@@ -1,0 +1,56 @@
+body{
+	background:#eee url('../img/bg1.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+table{
+	width: 100%;
+	background-color: #eee;
+	color: #000;
+	border-collapse: collapse;
+	font-size: 2em;
+}
+th, td{
+	border: 1px solid #000;
+	text-align: left;
+
+}
+tr:nth-child(2n+2){
+	background-color: #cae617;
+}
+tr:hover{
+	background-color: #3b1599;
+}
+main {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(85, 92, 90, 0.7);
+
+}
+h1,h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+main h1{
+font-size: 3em;
+font-family: 'Open Sans', sans-serif;
+}
+article h3{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+article p::first-letter{
+	font-size: 3em;
+}
+article p{
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+	text-align: justify;
+}
+i{
+	font-size: 2em;
+	color: red;
+}
+

@@ -1,0 +1,89 @@
+/* Nunulinamos standartinės reikšmės ir priskiriama nauja */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif', serif;
+}
+
+/* Layout */
+body {
+	width: 50%;
+	margin:50px auto;
+	padding: 10px;
+}
+
+/* Head of the body */
+.logo-pic {
+	width: 50%;
+	margin: auto;
+}
+.logo-pic img {
+	display: block;
+	margin: auto;
+}
+header h1 {
+	text-align: center;
+	font-size: 4em;
+	font-weight: lighter;
+	padding-bottom: 20px;
+}
+
+.presentation {
+	border-top: 4px double #000;
+	border-bottom: 4px double #000;
+	padding: 10px 0;
+
+}
+.presentation h2 {
+	font-size: 1em;
+	word-spacing: 0.54em;
+	text-align: justify;
+}
+
+/* main of the body */
+article{
+	width: 23.6%;
+	display: inline-block;
+	padding: 5px;
+	vertical-align: top;
+}
+.title *{
+	display: inline-block;
+}
+.title h2{
+	font-size: 1.6em;
+}
+.title i{
+	color: #dad0d0;
+	font-size: 1.2em;
+}
+article p{
+	text-align: justify;
+}
+
+/* body's footer */
+footer{
+	margin-top: 60px;
+	text-align: center;
+	height: 30px;
+}
+footer *{
+	display: inline-block;
+	vertical-align:middle;
+}
+
+footer img {
+	width: auto;
+	height: 30px;
+}
+
+footer p{
+	padding-left: 5px;
+}
+span{
+	color: #948b8b;
+	padding-left: 10px;
+	font-size: 0.8em;
+	vertical-align: bottom;
+}
+

@@ -1,0 +1,46 @@
+/* Nunulinamos margin reiksmes */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout */
+.container{
+	background-color: #eee;
+	width: 80%;
+	margin:50px auto;
+	padding: 10px
+
+}
+
+.container div{
+	text-align: center;
+	width: 15%;
+	height: 20%;
+	margin: auto;
+	
+}
+
+div p {
+	height: 150px;
+	margin: auto;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+
+.container div:nth-child(1) {
+	background-color: #b8e374
+}
+.container div:nth-child(2) {
+	background-color: #8ab547
+}
+.container div:nth-child(3) {
+	background-color: #a7d42c
+}
+.container div:nth-child(4) {
+	background-color: #798754
+}
+.container div:nth-child(5) {
+	background-color: #bd622d
+}

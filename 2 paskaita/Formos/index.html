@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<meta charset="utf-8">
+		<title>Antra paskaita</title>
+	</head>
+	<body>
+		<h1>Formos</h1>
+		<form method="GET">
+			<fieldset>
+				<select>
+					<option select disabled>--Pasirinkite departamentą--</option>
+					<option>IT</option>
+					<option>Finansų</option>
+					<option>Prevencijos</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<input type="text" name="name" placeholder="vardas" required>
+			</fieldset>
+			<fieldset>
+				<input type="email" name="email" placeholder="El. paštas" required>
+			</fieldset>
+			<fieldset>
+				<lable>Gimimo data:</label>
+				<input type="date" name="date" required>
+			</fieldset>
+			<fieldset>
+				<lable>Akių spalva:</label>
+				<input type="color" name="color" required>
+			</fieldset>
+			<fieldset>
+				<textarea placeholder="Žinutė" name="message" required></textarea>
+			</fieldset>
+			<fieldset>
+				<lable>Paso kopija:</label>
+				<input type="file" name="passport">
+			</fieldset>
+			<fieldset>
+				<lable>Su viskuo sutinku</label>
+				<input type="checkbox" checked name="agreement">
+			</fieldset>
+			<fieldset>
+				<button type="submit">Siųsti</button>
+				<button type="reset">Valyti</button>
+			</fieldset>
+		</form>
+	</body>
+</html>

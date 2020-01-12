@@ -1,0 +1,61 @@
+article{
+	background-color:aquamarine;
+}
+/*universalus selektorius*/
+*{
+	text-align:center;
+}
+/*p selektorius*/
+p{
+	font-size:1.5em;
+}
+p::first-letter{
+	font-size:3em;
+}
+/*id selektorius*/
+#super{
+font-size:2.5em;
+}
+
+/*klasės selektorius*/
+.centruok{
+	text-align:left;
+}
+
+/*Atributo selektorius */
+a[href="http://www.delfi.lt"]{
+	background-color: tomato;
+}
+a[href="https://www.technologijos.lt"]{
+	background-color: green;
+}
+a[href="https://developer.mozilla.org/en-US/docs/Web/CSS"]{
+	background-color: aquamarine;
+}
+a[href="https://www.smm.lt"]{
+	background-color: purple;
+}
+a[href$=".docx"]{
+	background-color: blue;
+}
+a[href$=".xlsx"]{
+	background-color: grey;
+}
+a[href$=".pdf"]{
+	background-color: red;
+}
+
+/*pseudo klases */
+a:link{
+	color: red;
+}
+a:visited{
+	color: aqua;
+}
+a:hover{
+	color: aquamarine;
+}
+
+li:first-child{
+text-align: left;
+}
