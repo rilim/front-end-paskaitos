@@ -1,0 +1,20 @@
+ul {
+  background-color: #2C3E50;
+  display: inline-table; }
+  ul li {
+    list-style: none;
+    color: #fff;
+    display: inline;
+    padding: 10px;
+    line-height: 70px; }
+    ul li a {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer; }
+
+.navigation {
+  text-align: center;
+  background-color: #2C3E50;
+  height: 70px; }
+
+/*# sourceMappingURL=nav.css.map */

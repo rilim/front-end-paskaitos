@@ -1,0 +1,27 @@
+$white: #fff;
+
+ul {
+  background-color:#2C3E50;
+  display: inline-table;
+  li{
+    list-style: none;
+    color:$white;
+    display: inline;
+    padding: 10px;
+    line-height: 70px;
+
+
+    a{
+      color:$white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+  }
+}
+
+.navigation{
+ text-align: center;
+  background-color: #2C3E50;
+  height: 70px;
+}
