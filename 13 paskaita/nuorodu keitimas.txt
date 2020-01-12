@@ -1,0 +1,11 @@
+//Pasiima visas tinklalapio nuorodas ir jas pakeicia i kitm.lt
+let nuorodos = document.querySelectorAll('a');
+console.log(nuorodos);
+for(i of nuorodos){
+i.href = "http://www.kitm.lt";
+}
+
+let pav = document.getElementsByClassName("title-ru");
+for (let i of pav){
+i.innerHTML = "Hello World!";
+}

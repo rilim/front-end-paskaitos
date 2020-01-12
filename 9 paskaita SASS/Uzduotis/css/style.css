@@ -1,0 +1,66 @@
+.button, body main article .button {
+  width: 40%;
+  margin: 20px auto;
+  justify-self: end; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 50%;
+  margin: 0 auto; }
+  @media (max-width: 400px) {
+    body {
+      width: 100%; } }
+  @media (max-width: 600px) {
+    body {
+      width: 90%; } }
+  @media (max-width: 1100px) {
+    body {
+      width: 80%; } }
+  body header {
+    text-align: center;
+    margin: 80px 60px 30px; }
+    body header p {
+      margin-top: 20px; }
+  body main {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between; }
+    body main article {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      width: 30%;
+      text-align: center;
+      border: 1px solid #eee;
+      flex: 1 1 auto;
+      padding: 15px; }
+      @media (max-width: 768px) {
+        body main article {
+          width: 45%; } }
+      @media (max-width: 1024px) {
+        body main article {
+          width: 47%; } }
+      body main article h2 {
+        margin-top: 10px; }
+      body main article i {
+        font-size: 2.2em;
+        color: #ff12ee; }
+      body main article p {
+        margin-top: 10px;
+        padding: 0 10px; }
+      body main article .button {
+        background-color: #0ecf3e;
+        border-radius: 5px; }
+        @media (max-width: 320px) {
+          body main article .button {
+            width: 47%; } }
+        body main article .button p {
+          margin-top: 0;
+          padding: 10px;
+          color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

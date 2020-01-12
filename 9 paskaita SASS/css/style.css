@@ -1,0 +1,60 @@
+/*Backgrounds*/
+/*Text color*/
+/*$aColor: #000;
+$aHoverColor: #fff;*/
+.button, section ul li span {
+  border-radius: 10px;
+  text-align: center;
+  float: right;
+  padding: 5px;
+  border: 1px solid #eee; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  background-color: #eee;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 30px;
+  /*panaudojamas mixinas*/ }
+
+header {
+  height: 150px;
+  background-color: #ddee88;
+  padding: 10px; }
+  @media (max-width: 300px) {
+    header {
+      height: 100px; } }
+  header h1 {
+    text-align: center;
+    line-height: 150px; }
+
+section {
+  padding: 10px;
+  background-color: #88aaff; }
+  section ul li {
+    padding: 5px 0;
+    margin: 5px 0;
+    background-color: #99aaff;
+    list-style: none; }
+    section ul li a {
+      text-decoration: none;
+      color: #eee; }
+      section ul li a:hover {
+        color: #d5d5d5; }
+    section ul li span {
+      /*idedamas sukurtas komponentas*/
+      background-color: #123456;
+      /*float: right;
+      font-weight: bold;*/ }
+
+footer {
+  background-color: #45ff12;
+  height: 70px; }
+  footer p {
+    text-align: center;
+    line-height: 70px; }
+
+/*# sourceMappingURL=style.css.map */

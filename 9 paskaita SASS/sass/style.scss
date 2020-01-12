@@ -1,0 +1,62 @@
+@import "var";
+@import "components";
+@import "mixins";
+*{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	background-color: $containerBackground;
+	margin: 0 auto;
+	width: 80%;
+	@include border-radius (30px); /*panaudojamas mixinas*/
+}
+
+header {
+	height: 150px;
+	background-color: $headerBackground;
+	padding: 10px;
+	@media (max-width: 300px){
+		height: 100px;
+	} 
+	h1 {
+		text-align: center;
+		line-height: 150px;
+	}
+}
+
+section {
+	padding: 10px;
+	background-color: $sectionBackground;
+	ul{
+		li{
+			padding: 5px 0;
+			margin: 5px 0;
+			background-color: $liBackground;
+			list-style: none;
+			a{
+				text-decoration: none;
+				color: $linkColor;
+				&:hover{
+					color: darken($linkColor, 10%);
+				}
+			}
+			span {
+				@extend .button; /*idedamas sukurtas komponentas*/
+				background-color: $buttonColor;
+				/*float: right;
+				font-weight: bold;*/
+			}
+		}
+	}
+}
+
+footer {
+	background-color: $footerBackground;
+	height: 70px;
+	p{
+		text-align: center;
+		line-height: 70px;
+
+	}
+}
