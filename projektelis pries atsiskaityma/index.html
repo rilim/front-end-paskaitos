@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Json bandymas</title>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row first-row">
+                <h1>Valiutos keitykla</h1>
+            </div>
+            <div class="row">
+                <h5>Valiuta į kurią konvertuojami eurai:</h5>
+            </div>
+            <div class="row third-row">
+                <select id="currency">
+
+                </select>
+            </div>
+            <div class="row fourth-row">
+                <div class="input-group">
+                    <input id="sumaEurais" type="text" class="form-control" placeholder="Įveskite sumą eurais" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" id="submit" type="button">Konvertuoti</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h5>Valiutų kursas:</h5>
+                <h4 id="kursas"></h4>
+            </div>
+            <div class="row">
+                <h4 id="konvertuotaSuma"></h4>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

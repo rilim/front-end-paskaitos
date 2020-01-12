@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    background-color: #dc8344;
+}
+.container {
+    padding-bottom: 50px;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+}
+.first-row {
+    padding: 40px;
+}
+
+.third-row, .input-group {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 30%;
+}
